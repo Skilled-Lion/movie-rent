@@ -1,0 +1,11 @@
+/Users/kaushal.singh/Documents/movie-rent/bin/Debug/netcoreapp2.1/movie-rent.deps.json
+/Users/kaushal.singh/Documents/movie-rent/bin/Debug/netcoreapp2.1/movie-rent.runtimeconfig.json
+/Users/kaushal.singh/Documents/movie-rent/bin/Debug/netcoreapp2.1/movie-rent.runtimeconfig.dev.json
+/Users/kaushal.singh/Documents/movie-rent/bin/Debug/netcoreapp2.1/movie-rent.dll
+/Users/kaushal.singh/Documents/movie-rent/bin/Debug/netcoreapp2.1/movie-rent.pdb
+/Users/kaushal.singh/Documents/movie-rent/obj/Debug/netcoreapp2.1/movie-rent.csprojAssemblyReference.cache
+/Users/kaushal.singh/Documents/movie-rent/obj/Debug/netcoreapp2.1/movie-rent.csproj.CoreCompileInputs.cache
+/Users/kaushal.singh/Documents/movie-rent/obj/Debug/netcoreapp2.1/movie-rent.AssemblyInfoInputs.cache
+/Users/kaushal.singh/Documents/movie-rent/obj/Debug/netcoreapp2.1/movie-rent.AssemblyInfo.cs
+/Users/kaushal.singh/Documents/movie-rent/obj/Debug/netcoreapp2.1/movie-rent.dll
+/Users/kaushal.singh/Documents/movie-rent/obj/Debug/netcoreapp2.1/movie-rent.pdb
