@@ -7,6 +7,7 @@ namespace movie_rent
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Console.WriteLine("The Current Time is "+ DateTime.Now);
         }
     }
 }
