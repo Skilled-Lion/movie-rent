@@ -2,12 +2,19 @@
     margin-right: 10px;
 }
 
+
 /* Highlighting rules for nav menu items */
 .navbar .navbar-nav .active a,
 .navbar .navbar-nav .active a:hover,
 .navbar .navbar-nav .active a:focus {
     background-image: none;
-    background-color: #4189C7;
+    background-color:#e756d4;
+    color: white;
+}
+
+.navbar .navbar-nav li a:hover {
+    background-image: none;
+    background-color:#e992dd;
     color: white;
 }
 
