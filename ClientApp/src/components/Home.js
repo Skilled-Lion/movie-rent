@@ -1,22 +1,81 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import { Carousel, Jumbotron } from 'react-bootstrap';
+import { Alert } from 'react-bootstrap'
+import "./Home.css"
 
 const Home = props => (
-  <div>
-    <h1>Hello, world!</h1>
-    <p>Welcome to your new single-page application, built with:</p>
-    <ul>
-      <li><a href='https://get.asp.net/'>ASP.NET Core</a> and <a href='https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx'>C#</a> for cross-platform server-side code</li>
-      <li><a href='https://facebook.github.io/react/'>React</a> and <a href='https://redux.js.org/'>Redux</a> for client-side code</li>
-      <li><a href='http://getbootstrap.com/'>Bootstrap</a> for layout and styling</li>
-    </ul>
-    <p>To help you get started, we've also set up:</p>
-    <ul>
-      <li><strong>Client-side navigation</strong>. For example, click <em>Counter</em> then <em>Back</em> to return here.</li>
-      <li><strong>Development server integration</strong>. In development mode, the development server from <code>create-react-app</code> runs in the background automatically, so your client-side resources are dynamically built on demand and the page refreshes when you modify any file.</li>
-      <li><strong>Efficient production builds</strong>. In production mode, development-time features are disabled, and your <code>dotnet publish</code> configuration produces minified, efficiently bundled JavaScript files.</li>
-    </ul>
-    <p>The <code>ClientApp</code> subdirectory is a standard React application based on the <code>create-react-app</code> template. If you open a command prompt in that directory, you can run <code>npm</code> commands such as <code>npm test</code> or <code>npm install</code>.</p>
+  <div style={{marginTop:"3em"}}>
+    <Jumbotron>
+      {/* <div className="mainText">Sonali Kumari</div> */}
+      <div >
+      <Carousel >
+        <Carousel.Item className="sonali-crousel">
+          <img
+            className="d-block w-100"
+            src="/2.jpeg"
+            alt="First slide"
+            style={{width:"100%", height:"100%"}}
+          />
+          <Carousel.Caption className="color-pink">
+            <h3>Beautiful</h3>
+            <p> It’s that heart of gold, & stardust soul that make you beautiful. </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item className="sonali-crousel">
+          <img
+            className="d-block w-100"
+            src="/3.jpeg"
+            alt="Second slide"
+            style={{width:"100%", height:"100%"}}
+          />
+
+          <Carousel.Caption className="color-pink">
+            <h3> Smart </h3>
+            <p> A wise girl knows her limits, a smart girl knows that she has none. </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item className="sonali-crousel">
+          <img
+            className="d-block w-100"
+            src="/4.jpeg"
+            alt="Third slide"
+            style={{width:"100%", height:"100%"}}
+          />
+
+          <Carousel.Caption className="color-pink">
+            <h3> Passionate </h3>
+            <p> There is no passion to be found playing small in settling for a life that is less than the one you are capable of living </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
+      </div>
+      <div className="details">
+        <Alert key={1} variant={"success"}>
+          <h3>Sofware Engineer</h3>
+          <div><span>Birth Day</span> : <span>20 March</span></div>
+          <div><span>Email</span> : <span>singh0320sonali@gmail.com</span></div>
+          <div><span>Language</span> : <span>English</span>, <span>Hindi</span>, <span>Maithili</span></div>
+          <div>
+            <span>Hobbies</span> :
+            <ul>
+              <li>
+                Badminton
+              </li>
+              <li>
+                Listening Songs
+              </li>
+              <li>
+                Cooking
+              </li>
+              <li>
+                Watching TV Series
+              </li>
+            </ul>
+          </div>
+        </Alert>
+      </div>
+    </Jumbotron>
   </div>
 );
 

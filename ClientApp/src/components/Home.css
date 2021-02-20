@@ -1,0 +1,50 @@
+.mainText {
+    font-size: 2.5em;
+    font-weight: bold;
+    font-style: italic;
+    color: #e756d4;
+    text-align: center;
+}
+
+.sonali-crousel{
+    width:auto;
+    height: 300px;
+}
+
+.details{
+    font-size: 1.5rem;
+    color: #ec46d6;
+    /* font-weight: bold; */
+    margin-top: 1em;
+}
+
+.color-pink{
+    color: #8b187c;
+}
+
+@media (min-width: 768px) {
+    .sonali-crousel{
+        width:550;
+        height: 550px;
+        margin: 2em;
+    }
+
+    .mainText {
+        font-size: 3.5em;
+        font-weight: bold;
+        font-style: italic;
+        color: #e756d4;
+        text-align: center;
+    }
+
+    .details{
+        font-size: 2rem;
+        color: #ec46d6;
+        /* font-weight: bold; */
+        margin-top: 1em;
+    }
+
+    .color-pink{
+        color: #8b187c;
+    }
+}
