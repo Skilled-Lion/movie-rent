@@ -29,12 +29,12 @@ const Counter = props => (
         <p>Dr. A P J Abdul Kalam Women's Institute of Technology</p> <span>2015-19</span> <span>7.85 CGPA</span>
       </div>
       <div>
-        <h3>Heigher Secondary </h3>
+        <h3>Higher Secondary </h3>
         <p>R L College, BSEB</p> <span>2013-15</span> <span>64%</span>
       </div>
       <div>
         <h3>Secondary</h3>
-        <p>R L College, BSEB</p> <span>2012</span> <span>69.9%</span>
+        <p>Madonna English School, ICSE</p> <span>2012</span> <span>69.9%</span>
       </div>
     </Jumbotron>
     <Jumbotron>
