@@ -19,7 +19,7 @@
 }
 
 .color-pink{
-    color: #8b187c;
+    color: #f7c9f1;
 }
 
 @media (min-width: 768px) {
@@ -45,6 +45,6 @@
     }
 
     .color-pink{
-        color: #8b187c;
+        color: #f7c9f1;
     }
 }

@@ -18,8 +18,8 @@ const Home = props => (
             style={{width:"100%", height:"100%"}}
           />
           <Carousel.Caption className="color-pink">
-            <h3>Beautiful</h3>
-            <p> It’s that heart of gold, & stardust soul that make you beautiful. </p>
+            <h2>Beautiful</h2>
+            <p style={{fontWeight:"bold"}}> It’s that heart of gold, & stardust soul that make you beautiful. </p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item className="sonali-crousel">
@@ -31,8 +31,8 @@ const Home = props => (
           />
 
           <Carousel.Caption className="color-pink">
-            <h3> Smart </h3>
-            <p> A wise girl knows her limits, a smart girl knows that she has none. </p>
+            <h2> Smart </h2>
+            <p style={{fontWeight:"bold"}}> A wise girl knows her limits, a smart girl knows that she has none. </p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item className="sonali-crousel">
@@ -44,8 +44,8 @@ const Home = props => (
           />
 
           <Carousel.Caption className="color-pink">
-            <h3> Passionate </h3>
-            <p> There is no passion to be found playing small in settling for a life that is less than the one you are capable of living </p>
+            <h2> Passionate </h2>
+            <p style={{fontWeight:"bold"}}> There is no passion to be found playing small in settling for a life that is less than the one you are capable of living </p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
